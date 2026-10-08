@@ -54,9 +54,8 @@ export class StateStoreService {
         // Implementation depends on the specific store backends
     }
 
-    async restore(): Promise<TEntity[]> {
+    async restore(): Promise<void> {
         // Restore all state from storage
         // Implementation depends on the specific store backends
-        return [];
     }
 }
