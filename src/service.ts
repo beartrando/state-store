@@ -59,3 +59,5 @@ export class StateStoreService {
         // Implementation depends on the specific store backends
     }
 }
+
+export default StateStoreService;
